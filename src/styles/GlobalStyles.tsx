@@ -21,13 +21,23 @@ export const GlobalStyles = createGlobalStyle`
     font-style: inherit;
     color: inherit;
   }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
 
   a:visited {
     color: inherit;
   }
   
   body {
-    background: ${theme.background.light};
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: ${theme.background.dark || '#1F1F1F'};
     font-family: Roboto, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
     font-style: normal;
   }
