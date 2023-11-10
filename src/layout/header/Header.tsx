@@ -1,15 +1,15 @@
-import styled from 'styled-components'
-import { Menu } from 'components/menu/Menu'
-import {Logo} from "components/logo/Logo";
+import styled from "styled-components";
+import { Menu } from "components/menu/Menu";
+import { Logo } from "components/logo/Logo";
 
 export const Header = () => {
   return (
     <StyledHeader>
-      <Logo/>
+      <Logo />
       <Menu />
     </StyledHeader>
-  )
-}
+  );
+};
 
 const StyledHeader = styled.header`
   background-color: aquamarine;
@@ -19,4 +19,4 @@ const StyledHeader = styled.header`
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-`
+`;

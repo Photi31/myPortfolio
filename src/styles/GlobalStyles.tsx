@@ -1,5 +1,5 @@
-import { createGlobalStyle } from 'styled-components'
-import { theme } from 'styles/Theme.styled'
+import { createGlobalStyle } from "styled-components";
+import { theme } from "styles/Theme.styled";
 export const GlobalStyles = createGlobalStyle`
   *,
   *::before,
@@ -37,9 +37,9 @@ export const GlobalStyles = createGlobalStyle`
   body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background-color: ${theme.background.dark || '#1F1F1F'};
+    background-color: ${theme.background.dark || "#1F1F1F"};
     font-family: Roboto, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
     font-style: normal;
   }
 
-`
+`;

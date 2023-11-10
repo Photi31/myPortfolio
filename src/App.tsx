@@ -1,15 +1,16 @@
-import {Container} from "components/container/Container";
-import {Header} from "layout/header/Header";
-
+import { Container } from "components/Container";
+import { Header } from "layout/header/Header";
+import { Main } from "layout/sections/main/Main";
 
 function App() {
-    return (
-        <>
-          <Container>
-            <Header/>
-          </Container>
-        </>
-    );
+  return (
+    <>
+      <Container>
+        <Header />
+        <Main />
+      </Container>
+    </>
+  );
 }
 
 export default App;
