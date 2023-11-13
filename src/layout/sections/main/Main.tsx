@@ -9,7 +9,7 @@ export const Main = () => {
     <StyledMain>
       <FlexWrapper justify="spase-around" align="center">
         <div>
-          <Typography variant="subtitle">Welcome</Typography>
+          <Typography variant="subtitle2">Welcome</Typography>
           <Typography variant="large">I’m Svetlana Nemova</Typography>
           <Typography as="h1" variant="h3">
             A Frontend Developer
