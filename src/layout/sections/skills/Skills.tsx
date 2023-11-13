@@ -10,7 +10,7 @@ export const Skills = () => {
         <Typography as="h2" variant="h2" mt="150px">
           My Tech Stack
         </Typography>
-        <Typography variant="subtitle" mt="50px">
+        <Typography variant="subtitle2" mt="50px">
           {" "}
           Technologies I’ve been working with recently
         </Typography>
