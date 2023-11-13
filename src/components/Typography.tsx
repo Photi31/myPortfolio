@@ -4,12 +4,14 @@ import { theme } from "styles/Theme.styled";
 type TypographyType = {
   variant?: VariantType;
   aline?: string;
+  mt?: string;
 };
 
 export const Typography = styled.span<TypographyType>`
   display: block;
   color: ${theme.color.primary || "#CCC"};
   text-align: ${(props) => props.aline || "start"};
+  margin-top: ${(props) => props.mt || "0"};
   ${({ variant }) => HandleVariantType(variant || "caption")}
 `;
 

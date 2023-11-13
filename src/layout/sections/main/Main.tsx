@@ -24,8 +24,8 @@ export const Main = () => {
   );
 };
 
-const StyledMain = styled.div`
-  padding: 50px 0;
+const StyledMain = styled.section`
+  padding-top: 50px;
   background-color: #12125d;
   position: relative;
   min-height: 630px;

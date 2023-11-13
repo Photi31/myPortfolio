@@ -54,7 +54,7 @@ const Icon = ({ iconId, height = "30", viewBox = "0 0 16 16", width = "30", fill
 
 export default Icon;
 
-type IconId =
+export type IconId =
   | "whatsapp"
   | "logo"
   | "abstract"
