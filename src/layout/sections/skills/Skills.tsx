@@ -38,5 +38,4 @@ export const Skills = () => {
 
 const StyledSkills = styled.section`
   background-color: blueviolet;
-  //padding-top: 150px;
 `;

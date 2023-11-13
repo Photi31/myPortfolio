@@ -4,7 +4,7 @@ import Icon from "components/icon/Icon";
 export const Logo = () => {
   return (
     <StyledLogo>
-      <Icon width="126" height="13" viewBox="0 0 126 13" iconId={"logo"} />
+      <Icon width="256" height="26" viewBox="0 0 128 13" iconId={"logo"} />
     </StyledLogo>
   );
 };
