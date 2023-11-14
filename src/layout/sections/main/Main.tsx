@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { FlexWrapper } from "components/FlexWrapper";
 import photo from "./../../../assets/images/photo.webp";
-import Icon from "components/icon/Icon";
+import { Icon } from "components/icon/Icon";
 import { Typography } from "components/Typography";
 
 export const Main = () => {
@@ -17,7 +17,7 @@ export const Main = () => {
         </div>
         <PhotoBlock>
           <Photo src={photo} alt="Photo" />
-          <Icon iconId={"abstract"} width="628" height="628" fill="none" viewBox="0 0 628 628" />
+          <Icon iconId={"abstract"} width="610" height="610" fill="none" viewBox="0 0 630 630" />
         </PhotoBlock>
       </FlexWrapper>
     </StyledMain>
@@ -54,6 +54,7 @@ const PhotoBlock = styled.div`
 const Photo = styled.img`
   width: 250px;
   height: 300px;
-  object-fit: contain;
+  object-fit: cover;
   z-index: 2;
+  border-radius: 10px;
 `;

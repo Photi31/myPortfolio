@@ -7,10 +7,16 @@ type IconPropsType = {
   viewBox?: string;
   fill?: string;
 };
-const Icon = ({ iconId, height = "30", viewBox = "0 0 16 16", width = "30", fill = "currentColor" }: IconPropsType) => {
+export const Icon = ({
+  iconId,
+  height = "30",
+  viewBox = "0 0 16 16",
+  width = "30",
+  fill = "currentColor",
+}: IconPropsType) => {
   if (iconId === "abstract") {
     return (
-      <svg xmlns="http://www.w3.org/2000/svg" width={width} height={height} fill={fill} viewBox={viewBox}>
+      <svg xmlns="http://www.w3.org/2000/svg" width={width} height={height} fill={"none"} viewBox={viewBox}>
         <g id="abstract">
           <g strokeOpacity=".5" opacity=".25">
             <path stroke="url(#a)" d="M585.236 470.58h443v443h-443z" transform="rotate(165 585.236 470.58)" />
@@ -52,8 +58,6 @@ const Icon = ({ iconId, height = "30", viewBox = "0 0 16 16", width = "30", fill
   );
 };
 
-export default Icon;
-
 export type IconId =
   | "whatsapp"
   | "logo"
@@ -77,4 +81,5 @@ export type IconId =
   | "anchor"
   | "vk"
   | "github"
-  | "telegram";
+  | "telegram"
+  | "reactHookForm";

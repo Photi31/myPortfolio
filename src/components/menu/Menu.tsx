@@ -1,4 +1,3 @@
-import Icon from "components/icon/Icon";
 import styled from "styled-components";
 import { SocialNetworkMenu } from "components/menu/SocialNetworkMenu";
 

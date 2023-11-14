@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { FlexWrapper } from "components/FlexWrapper";
 import { Typography } from "components/Typography";
-import Icon from "components/icon/Icon";
+import { Icon } from "components/icon/Icon";
 import { Link } from "components/Link";
 
 type CardType = {
